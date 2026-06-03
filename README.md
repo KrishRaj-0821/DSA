@@ -1,12 +1,10 @@
 # 🚀 Data Structures & Algorithms (DSA) Series
 
-Welcome to my DSA repository! I am **Krish Raj**, a B.Tech Computer Science and Engineering student. This repository serves as a daily tracker for my problem-solving journey, algorithmic progress, and clean code implementations.
+Welcome to my DSA repository! I am **Krish Raj**, a B.Tech Computer Science and Engineering student. This repository serves as a structured tracker for my daily problem-solving journey, showcasing code implementations from naive approaches to highly optimized solutions.
 
 ---
 
 ## 🔗 Connect With Me
-
-Let's connect, collaborate, or talk code!
 
 * **💼 LinkedIn:** [Krish Raj](https://www.linkedin.com/in/krish-raj-4932a6322/)
 * **🌐 Personal Portfolio:** [rajkrish.netlify.app](https://rajkrish.netlify.app/)
@@ -14,23 +12,33 @@ Let's connect, collaborate, or talk code!
 
 ---
 
-## 📂 Repository Contents & Progress
+## 📂 Problem-Wise Code Directory
 
-This section highlights the key algorithmic problems and patterns tracked in this repository so far:
-
-### 🔢 Subarray & Sum Problems
-* **Subarray Generation (Brute Force):** Printing all possible contiguous subarrays for a given array.
-* **Maximum Subarray Sum (O(N²) Approach):** Finding the maximum sum subarray using optimized nested loops.
-* **Kadane's Algorithm (O(N) Optimal Approach):** Linear-time solution to find the maximum subarray sum by eliminating negative prefix contributions dynamically.
+### 📋 Problem 1: Contiguous Subarray Generation
+* **Objective:** Print all possible contiguous subarrays for a given array.
+* **Implementations:**
+  1. **`bruthforce.cpp` / `tempCodeRunnerFile.cpp` ($O(N^3)$ Complexity):** Uses three nested loops to fix the start pointer, end pointer, and iterate to print the elements.
 
 ---
 
-## 🛠️ Tech Stack & Implementation
+### 📋 Problem 2: Maximum Subarray Sum (O(N²) Approach)
+* **Objective:** Find the maximum sum among all possible subarrays using optimized nested loops.
+* **Implementations:**
+  1. **`maxOfSubstring.cpp` ($O(N^2)$ Complexity):** Eliminates the innermost printing loop. It tracks and accumulates the running sum directly as the ending pointer moves forward, comparing it with `INT_MIN` at each step.
+
+---
+
+### 📋 Problem 3: Maximum Subarray Sum (Optimal O(N) Approach)
+* **Objective:** Solve the maximum subarray sum problem in linear time with a single pass.
+* **Implementations:**
+  1. **`kadanes_Algo.cpp` ($O(N)$ Complexity — Kadane's Algorithm):** * Implemented using a standard standard loop and an optimized **for-each loop** pattern.
+     * Discards negative prefix sum contributions instantly by resetting the current sum to `0` if it falls below zero, ensuring optimal performance.
+
+---
+
+## 🛠️ Tech Stack
 
 * **Language:** C++ (`.cpp`)
-* **Environment:** Visual Studio Code / GCC Compiler
-
-## 📈 Goal
-The primary focus of this repository is consistent optimization—moving step-by-step from naive **Brute Force** methods to highly optimal **Linear-Time** solutions. 
+* **Compiler:** GCC / MinGW Runtime
 
 *Every day is a step closer to mastering problem-solving!*
