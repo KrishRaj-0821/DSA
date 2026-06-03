@@ -17,7 +17,7 @@ Welcome to my DSA repository! I am **Krish Raj**, a B.Tech Computer Science and 
 ### 📋 Problem 1: Contiguous Subarray Generation
 * **Objective:** Print all possible contiguous subarrays for a given array.
 * **Implementations:**
-  1. **`bruthforce.cpp` / `tempCodeRunnerFile.cpp` ($O(N^3)$ Complexity):** Uses three nested loops to fix the start pointer, end pointer, and iterate to print the elements.
+  1. **`bruthforce.cpp` ($O(N^3)$ Complexity):** Uses three nested loops to fix the start pointer, end pointer, and iterate to print the elements.
 
 ---
 
